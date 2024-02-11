@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FirebaseApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FirebaseApp" parent="Base.Theme.FirebaseApp" />
+
+    <style name="Theme.FirebaseApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FirebaseApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FirebaseApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="splashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">
+            @drawable/splash_drawable
+        </item>
+        <item name="android:statusBarColor">#1E1F22</item>
+
+    </style>
+</resources>

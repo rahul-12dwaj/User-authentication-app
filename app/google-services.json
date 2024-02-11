@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986639305011",
+    "project_id": "allyours-89b1d",
+    "storage_bucket": "allyours-89b1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986639305011:android:febbd02deed7f019ab9646",
+        "android_client_info": {
+          "package_name": "com.example.allyours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOhSiHFOKkW1MI0CEwk0q52ZAXM8p8LVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986639305011:android:6f3cea6bbb5242f1ab9646",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOhSiHFOKkW1MI0CEwk0q52ZAXM8p8LVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

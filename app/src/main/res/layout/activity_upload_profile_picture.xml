@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral_variant20"
+    tools:context=".uploadProfilePicture">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Single Toolbar at the top -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/DarkGoldenrod"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="80dp"
+        android:padding="15dp"
+        android:background="@color/material_dynamic_neutral_variant20">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_upload_profile_head"
+            android:text="@string/upload_your_profile_picture"
+            android:textAlignment="center"
+            android:textColor="@color/LightGrey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_choose_profile_pic"
+            android:layout_below="@+id/textView_upload_profile_head"
+            android:layout_marginTop="20dp"
+            android:text="@string/choose_picture"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@color/Goldenrod"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView_upload_profile"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:layout_below="@+id/btn_choose_profile_pic"
+            android:contentDescription="@string/upload_your_profile_picture" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_upload_profile"
+            android:id="@+id/btn_upload_profile_pic"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/Goldenrod"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/upload"
+            android:textColor="@color/black"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

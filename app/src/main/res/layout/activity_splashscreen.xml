@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_neutral_variant20">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:layout_gravity="center"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/imageView_Logo"
+            android:layout_width="170dp"
+            android:layout_height="98dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logo_app_firebase"
+            android:maxWidth="180dp"
+            app:srcCompat="@drawable/ic_logo" />
+
+        <TextView
+            android:id="@+id/textView_head_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_Logo"
+            android:layout_marginTop="1dp"
+            android:fontFamily="times"
+            android:text="@string/endless_love"
+            android:textColor="@color/DarkGray"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/textView_foot_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_head_main"
+            android:layout_marginTop="260dp"
+            android:fontFamily="times"
+            android:text="@string/powered_by_deodar_drops"
+            android:textSize="12sp"
+            android:textColor="@color/Gray"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
